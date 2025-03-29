@@ -1,0 +1,68 @@
+*,
+ ** ::before,
+ *::after {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   text-decoration: none;
+    
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: aqua;
+    box-shadow:60px 16px 20px rgba(0, 128, 128, 0.5);
+}
+
+.navbar h1 {
+    color:darkblue;
+}
+
+
+.container {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    margin-top: 20px;
+    
+}
+
+
+
+.buttons {
+    display: flex;
+    text-align: center;
+    padding: 20px;
+    transition: 0.3s;
+    height: 50px;
+    gap: 20px;
+    cursor: pointer;
+    
+}
+.buttons button {
+    border-radius : 20px;
+    width: 90px;
+    background-color:darkcyan;
+    border: none;
+    cursor: pointer;
+    color:black;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+
+}
+.buttons :hover{
+    transform: scale(1.1);
+    box-shadow: 0px 0px 10px rgba(168, 85, 247, 0.6);
+    
+}
+
+footer {
+    text-align: center;
+    margin-top: 300px;
+   
+
+}
+
