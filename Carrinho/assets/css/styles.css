@@ -1,0 +1,63 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #a28089;
+}
+.content {
+    color: black;
+    
+}
+
+.formulario {
+    padding: 30px;
+    display: grid;
+    gap: 40px;
+   justify-content: center;
+}
+.formulario input {
+    border-radius: 50px;
+    text-align: center;
+    height: 40px;
+    width: 500px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+    gap: 40px;    
+}
+
+.buttonAddCarrinho {
+    border-radius: 30px;
+    text-align: center;
+    height: 60px;
+    width: 250px;
+    background-color: red;
+}
+
+.buttonAddCarrinho:hover {
+    color: blueviolet;
+    scale: 1.3;
+}
+
+.listItems {
+    border-radius: 30px;
+    text-align: center;
+    height: 60px;
+    width: 250px;
+    box-shadow: #a28089;
+    background-color: blue;
+}
+
+.listItems:hover {
+    color: red;
+    scale: 1.3;
+}
+
+
+

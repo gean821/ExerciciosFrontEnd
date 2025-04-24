@@ -1,0 +1,90 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #6e5c62;
+    margin-top: 10px;
+    font-size: 25px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar h1 {
+    color: white;
+}
+
+.content {
+    display: grid;
+    justify-content: center;
+    margin-top: 90px;
+    margin-left: 300px
+}
+
+.quadrados{
+    display: grid;
+    grid-template-columns: repeat(5, 100px);
+    grid-template-rows: repeat(6, 100px);
+    width: 800px;
+    height: 800px;
+    gap: 5px;
+    margin: 0px;
+}
+
+.casa {
+    background-color: #615458;
+    border: 1px solid #000;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 40px;
+    font-weight: bold;
+    color: white;
+}
+
+
+.keyboard {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    margin-bottom: 80px;
+    margin-right: 100px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin: 0px;
+
+    
+}
+
+
+.row button {
+   border-radius: 12px;
+   height: 80px;
+   width: 80px;
+   background-color: #4c4347;
+   color: white;
+   font-family: 'Mitr', sans-serif;
+  font-size: 30px;
+  text-align: center;
+}
+
+.del {
+   margin-left: 20px;
+}
+
+.row .enter {
+    text-align: center;
+    width: 160px;
+    border-radius: 8%;
+    margin-left: 30px;
+    
+}
+
