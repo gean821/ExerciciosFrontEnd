@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio1</title>
+    <link rel="stylesheet" href="assets/CSS/styles.css">
+</head>
+<body>
+    <header>
+        <div class="navbar">
+            <nav>Done by Gean</nav>
+        </div>
+    </header>
+    <main class="content">
+        <div class="login-wrapper">
+            <div class="login">
+                <h1>Sign in</h1>
+                <form id="loginForm">
+                <div class="inputs">
+                        <input type="text" id="name" placeholder="Username">
+                        <input type="text" id="email" placeholder="Email">
+                </div>
+                <div class="loginAuthentication">
+                    <div class="checkbox-container">
+                        <div class="checkbox-group">
+                            <input type="checkbox" id="rememberMe" name="checkBox" value="remember me">
+                            <label for="rememberMe">Remember me</label>
+                        </div>
+                        <h4>Forgot password?</h4>
+                    </div>
+                </div>
+                <div class="register-container">
+                    <button type=submit class="button" id="registerButton">Login</button>
+                </div>
+            </form>
+                <div class="register-message">
+                    <h4>Don't have an account ? Register now!</h4>    
+                </div>
+            </div>
+        </div>
+        <div class="loginRegisters">
+            <h4>Usuario:</h4>
+        </div>
+        <div class="localStorageLogin">
+            <h3>Logins salvos pelo LocalStorage :</h3>
+            <ul id="usersList"></ul>
+        </div>
+        <div class="cleanButton">
+            <button class="cleanStorage" id="cleanButton">Limpar dados</button>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
